@@ -19,18 +19,15 @@ Este proyecto es una aplicación básica de gestión de tareas que ejemplifica e
 - **EJS**: Motor de plantillas para renderizar vistas.
 - **CSS**: Estilo para mejorar la interfaz de usuario.
 
-## 📹 Demo en Video
-[Enlace al Video]
-
 ## 🔗 Enlace al Proyecto
-[Enlace al Repositorio]
+https://github.com/Guille814/mvc-node.git
 
 ## 📚 Instrucciones
 1. Clona este repositorio.
    
    ```sh
-   git clone [enlace-al-repositorio]
-   cd nombre-del-repositorio
+   git clone https://github.com/Guille814/mvc-node.git
+   cd mvc-node
    ```
 2. Instala las dependencias.
     ```sh
