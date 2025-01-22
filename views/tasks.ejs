@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <form action="/tasks/add" method="POST">
+        <input type="text" name="task" placeholder="Nueva tarea">
+        <button type="submit">Añadir</button>
+    </form>
+    <ul>
+        <% tasks.forEach((task, index) => { %>
+            <li>
+                <%= task %> <a href="/tasks/delete/<%= index %>">Eliminar</a>
+            </li>
+        <% }) %>
+    </ul>
+    <form action="/" method="get">
+        <button type="submit">Ir a la lista de tareas</button>
+    </form>
+</body>
+</html>
